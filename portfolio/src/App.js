@@ -1,12 +1,21 @@
 import React from 'react';
-import './App.css';
+import About from './components/About.js'
+import Header from './components/Header.js'
+import Contact from './components/Contact.js'
+import Portfolio from './components/Portfolio.js'
+import SideProjects from './components/SideProjects.js'
+import './css/header.css'
 
 function App() {
   return (
     <div className="App">
-        <h1>
-            Hello World
-        </h1>
+
+        <Header />
+        <About />
+        <Portfolio />
+        <SideProjects />
+        <Contact />
+
     </div>
   );
 }
