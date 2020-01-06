@@ -10,11 +10,11 @@ html {
 }
 
 .name {
-    top: 6em;
+    top: 36vh;
+    /* top: 6em; */
     margin: 0;
     color: white;
     font-size: 3.13vw;
-    /* font-size: 2.5rem; */
     position: relative;
     text-align: center;
     line-height: 1.2em;
@@ -22,9 +22,11 @@ html {
 }
 
 .nav {
-    top: 2em;
+    top: 5vh;
+    /* top: 2em; */
     margin: 0;
     margin-left: 70%;
+    /* margin-left: 70vw; */
     /* margin-left: 57%; // With side projects tab */
     position: relative;
 }
@@ -32,10 +34,9 @@ html {
 .nav a {
     margin: 0;
     color: white;
-    margin-left: 7%;
-    /* margin-left: 4.5%; */
     font-size: 1.56vw;
-    /* font-size: 1.25rem; */
+    margin-left: 4%;
+    /* margin-left: 4.2vh; */
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -98,33 +99,43 @@ html {
     width: 30vw;
     height: 40vh;
     display: inline-block;
-    background-color: #8fa9b2;
 }
 
 .portfolioImages {
-    transition: opacity 0.5s;
     width: 30vw;
     height: 40vh;
+    position: relative;
+    transition: opacity 0.5s;
 }
 
 .portfolioImages:hover {
     opacity: 0;
 }
 
-/* .sideProjects {
-    top: 350vh;
-    width: 100%;
-    height: 100vh;
-    color: #648591;
-    text-align: center;
+.projectName {
+    font-size: 6vh;
+}
+
+.explanation {
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+    height: 40vh;
+    font-size: 3vh;
+    color: white;
     position: absolute;
-    background-image: linear-gradient(#eeeeee, #bcccd1);
-} */
+    background-color: #8fa9b2;
+}
+
+.explanation hr {
+    margin: 0 15%;
+    border: 1px solid white;
+}
 
 .contact {
     top: 350vh;
     width: 100%;
-    height: 75vh;
+    height: 75%;
     color: #648591;
     font-size: 1.56vw;
     position: absolute;
@@ -144,7 +155,8 @@ html {
 
 .contact p {
     font-size: 2vw;
-    padding-top: 2vh;
+    padding-top: 0.85rem;
+    /* padding-top: 2vh; */
     padding-bottom: 3%;
 }
 
