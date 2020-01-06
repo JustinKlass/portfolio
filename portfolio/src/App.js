@@ -3,7 +3,7 @@ import About from './components/About.js'
 import Header from './components/Header.js'
 import Contact from './components/Contact.js'
 import Portfolio from './components/Portfolio.js'
-import SideProjects from './components/SideProjects.js'
+// import SideProjects from './components/SideProjects.js'
 import './css/header.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Header />
         <About />
         <Portfolio />
-        <SideProjects />
+        {/* <SideProjects /> */}
         <Contact />
 
     </div>

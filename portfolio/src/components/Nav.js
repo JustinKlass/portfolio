@@ -13,7 +13,7 @@ class Nav extends Component {
             <nav className = 'nav'>
                  <a href="#about">About</a>
                  <a href="#portfolio">Portfolio</a>
-                 <a href="#portfolio">Side Projects</a>
+                 {/* <a href="#portfolio">Side Projects</a> */}
                  <a href="#contact">Contact</a>
                  {/* <a href="#">jQuery</a> */}
             </nav>

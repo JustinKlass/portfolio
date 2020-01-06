@@ -24,14 +24,16 @@ html {
 .nav {
     top: 2em;
     margin: 0;
-    margin-left: 57%;
+    margin-left: 70%;
+    /* margin-left: 57%; // With side projects tab */
     position: relative;
 }
 
 .nav a {
     margin: 0;
     color: white;
-    margin-left: 4.5%;
+    margin-left: 7%;
+    /* margin-left: 4.5%; */
     font-size: 1.56vw;
     /* font-size: 1.25rem; */
     text-decoration: none;
@@ -55,12 +57,17 @@ html {
 }
 
 .about h1 {
-    padding-top: 4%;
+    font-size: 4vw;
     color: #648591;
+    margin-bottom: 4vw;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .about p {
+    font-size: 2vw;
     color: #648591;
+    line-height: 6vh;
     padding-left: 12%;
     padding-right: 12%;
 }
@@ -68,7 +75,7 @@ html {
 .portfolio {
     top: 200vh;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     color: #648591;
     font-size: 1.56vw;
     position: absolute;
@@ -80,23 +87,42 @@ html {
     background-image: linear-gradient(#eeeeee, #bcccd1);
 }
 
+.portfolio h1 {
+    font-size: 4vw;
+    padding-bottom: 3%;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.project {
+    width: 30vw;
+    height: 40vh;
+    display: inline-block;
+    background-color: #8fa9b2;
+}
+
 .portfolioImages {
+    transition: opacity 0.5s;
     width: 30vw;
     height: 40vh;
 }
 
-.sideProjects {
-    top: 300vh;
+.portfolioImages:hover {
+    opacity: 0;
+}
+
+/* .sideProjects {
+    top: 350vh;
     width: 100%;
     height: 100vh;
     color: #648591;
     text-align: center;
     position: absolute;
     background-image: linear-gradient(#eeeeee, #bcccd1);
-}
+} */
 
 .contact {
-    top: 400vh;
+    top: 350vh;
     width: 100%;
     height: 75vh;
     color: #648591;
@@ -111,12 +137,14 @@ html {
 
 .contact h1 {
     font-size: 4vw;
-    padding-top: 6vh;
     text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .contact p {
     font-size: 2vw;
+    padding-top: 2vh;
     padding-bottom: 3%;
 }
 
@@ -149,11 +177,12 @@ html {
     text-decoration: none;
 }
 
-#socialBar a:hover {
-    color: #8fa9b2;
-}
-
 .contactImages {
     width: 3vw;
     height: 3vw;
+}
+
+.copywrite {
+    margin: 0;
+    margin-top: 8vh;
 }
