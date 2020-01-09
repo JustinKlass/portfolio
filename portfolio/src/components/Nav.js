@@ -11,11 +11,10 @@ class Nav extends Component {
     render() {
         return (
             <nav className = 'nav'>
-                 <a href="#about">About</a>
-                 <a href="#portfolio">Portfolio</a>
-                 {/* <a href="#portfolio">Side Projects</a> */}
-                 <a href="#contact">Contact</a>
-                 {/* <a href="#">jQuery</a> */}
+                <a href="docs/justinKlassResume.pdf" download>Resume</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
             </nav>
         )
     }
