@@ -25,7 +25,7 @@ html {
     top: 5vh;
     /* top: 2em; */
     margin: 0;
-    margin-left: 70%;
+    margin-left: 63%;
     /* margin-left: 70vw; */
     /* margin-left: 57%; // With side projects tab */
     position: relative;
@@ -35,7 +35,7 @@ html {
     margin: 0;
     color: white;
     font-size: 1.56vw;
-    margin-left: 4%;
+    margin-left: 4.5%;
     /* margin-left: 4.2vh; */
     text-decoration: none;
     text-transform: uppercase;
@@ -128,7 +128,7 @@ html {
 }
 
 .explanation hr {
-    margin: 0 15%;
+    margin: 0 10%;
     border: 1px solid white;
 }
 
