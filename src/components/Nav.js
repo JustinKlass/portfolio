@@ -11,7 +11,7 @@ class Nav extends Component {
     render() {
         return (
             <nav className = 'nav'>
-                <a href="images/justinKlassResume.pdf" download>Resume</a>
+                <a href="images/JustinKlassResume.pdf" download>Resume</a>
                 <a href="#about">About</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
