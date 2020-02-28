@@ -1,10 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-<<<<<<< HEAD
   "homepage": ".",
-=======
->>>>>>> 73a8063f941db62de1908c4ba61ff297d3811cda
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

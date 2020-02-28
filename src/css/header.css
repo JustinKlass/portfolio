@@ -25,11 +25,7 @@ html {
     top: 5vh;
     /* top: 2em; */
     margin: 0;
-<<<<<<< HEAD
     margin-left: 63%;
-=======
-    margin-left: 70%;
->>>>>>> 73a8063f941db62de1908c4ba61ff297d3811cda
     /* margin-left: 70vw; */
     /* margin-left: 57%; // With side projects tab */
     position: relative;
@@ -39,11 +35,7 @@ html {
     margin: 0;
     color: white;
     font-size: 1.56vw;
-<<<<<<< HEAD
     margin-left: 4.5%;
-=======
-    margin-left: 4%;
->>>>>>> 73a8063f941db62de1908c4ba61ff297d3811cda
     /* margin-left: 4.2vh; */
     text-decoration: none;
     text-transform: uppercase;
@@ -136,11 +128,7 @@ html {
 }
 
 .explanation hr {
-<<<<<<< HEAD
     margin: 0 10%;
-=======
-    margin: 0 15%;
->>>>>>> 73a8063f941db62de1908c4ba61ff297d3811cda
     border: 1px solid white;
 }
 
